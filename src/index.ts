@@ -6,7 +6,7 @@ import {
   updateOraclePrice,
 } from './doge-oracle-service'
 
-const MIN_UPDATE_INTERVAL_MS = 10000
+const MIN_UPDATE_INTERVAL_MS = 20000
 
 /**
  * Runs the main oracle price update loop that syncs with new blocks
